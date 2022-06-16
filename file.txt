@@ -1,0 +1,12 @@
+app.get('/') => some send request on this url will get the data inside it like
+app.get('/',(req,res)=>{
+    res.send('hello world')
+})
+start=>  npm start
+.use middleware => etar modle request and response duiti thake jeta ke se change kort pare
+
+ app.use('/static', express.static(path.join(__dirname, 'public')))
+port would be http://localhost:5000/static/hello.html
+
+app.use(express.static(path.join(__dirname,'public')))
+//port: http://localhost:5000/hello.html 
