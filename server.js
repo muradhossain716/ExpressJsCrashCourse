@@ -1,7 +1,7 @@
 const express = require('express')
 const path=require('path')
 const app = express()
-const port = 5000
+const port = 3000
 
  app.use('/static', express.static(path.join(__dirname, 'public')))
 //port would be http://localhost:5000/static/hello.html
@@ -18,7 +18,7 @@ app.get('/index',(req,res)=>{
    res.sendFile(path.join(__dirname,'index.html'))
   // res.json({'start':'end'})
 })
-
+app.get('/about')
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)

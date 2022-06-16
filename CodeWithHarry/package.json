@@ -1,0 +1,19 @@
+{
+  "name": "blogexpress",
+  "version": "1.0.0",
+  "description": "new blog created with harry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Murad",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.8"
+  }
+}
